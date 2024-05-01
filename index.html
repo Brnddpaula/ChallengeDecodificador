@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mensagem Secreta</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <img src="assets/Logo.png" alt="Logo Alura">
+    </div>
+    <div class="conteudo">
+        <div class="entrada">
+            <textarea id="textoEntrada" class="area-texto" placeholder="Digite seu texto"></textarea>
+            <div class="grupo-botoes">
+                <button id="botaoCriptografar" class="botao">Criptografar</button>
+                <button id="botaoDescriptografar" class="botao">Descriptografar</button>
+            </div>
+        </div>
+        <div class="resultado" id="divResultado">
+            <img src="assets/menino-lupa.jpg" alt="Imagem de lupa" class="imagem-menino-lupa" id="meninoLupa">
+            <img src="assets/nenhuma-msg.png" alt="Nenhuma mensagem encontrada" class="imagem-nenhuma-msg" id="nenhumaMsg">
+            <p id="mensagemResultado" class="texto-resultado"></p>
+            <button id="botaoCopiar" class="botao" style="display: none;">Copiar</button>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Brenda de Paula</p>
+    </footer>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
